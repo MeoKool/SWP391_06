@@ -1,0 +1,12 @@
+/* Trong tệp Footer.css */
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dadd11;
+  }
+  
+  h5 {
+    color: white; /* Đặt màu chữ thành màu trắng */
+  }
+  

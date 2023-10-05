@@ -1,0 +1,28 @@
+/* Trong tệp Navigation.css */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  display: flex; /* Sử dụng display: flex để các mục ngang hàng */
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  text-align: left; /* Đặt văn bản của mục bên trái */
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  display: block; /* Đặt mỗi liên kết là một khối riêng lẻ */
+}
+
+/* Hiệu ứng hover */
+a:hover {
+  background-color: #dadd11;
+  border-radius: 5px;
+}
